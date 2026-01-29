@@ -1,0 +1,57 @@
+# =========================
+# Java / NetBeans / Ant
+# =========================
+
+# Build output
+/build/
+\dist/
+nbbuild/
+nbdist/
+.nb-gradle/
+target/
+
+# IDE project metadata
+nbproject/private/
+nbproject/private/*
+*.nb-aosync
+
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# Mac / Windows files
+.DS_Store
+Thumbs.db
+
+# Backup / temp files
+*.bak
+*.tmp
+*~
+*.swp
+
+# NetBeans settings cache
+**/var/
+!nbproject/project.properties
+!nbproject/project.xml
+
+# Local environment / credentials (if created later)
+.env
+*.properties.local
+
+# Ignore JARs in libs if you manually add drivers
+lib/**/*.jar
+!*mysql-connector*.jar   # allow MySQL connector if added manually
+
+# =========================
+# Additional useful rules
+# =========================
+
+# IntelliJ / VSCode optional files
+.idea/
+.vscode/
+
+# Sonar / coverage tools if used later
+/.scannerwork/
+/coverage/
